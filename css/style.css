@@ -31,7 +31,8 @@ section {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: rgb(189,56,68);
+  /* color: var(--main-red); */
 }
 
 navbar {
@@ -41,5 +42,27 @@ navbar {
   width: 100vw;
   height: 4rem;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+navbar a {
+  padding-right: 3rem;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+navbar a:hover {
+  background: rgb(48, 48, 121);
+  height: 3rem;
+  /* padding-right: 1rem; */
+  background-position: cover;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: white;
 }
